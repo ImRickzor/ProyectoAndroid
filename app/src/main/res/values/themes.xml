@@ -19,4 +19,11 @@
         <item name="windowActionBar">false</item>
     </style>
 
+    <style name="BottomNavigation">
+        <item name="android:background">#161618</item>
+        <item name="itemIconTint">@drawable/bottom_nav_icon_color_selector</item>
+        <item name="itemTextColor">@drawable/bottom_nav_icon_color_selector</item>
+        <item name="android:itemIconDisabledAlpha" />
+    </style>
+
 </resources>

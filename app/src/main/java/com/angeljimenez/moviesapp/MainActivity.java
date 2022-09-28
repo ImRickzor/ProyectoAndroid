@@ -4,7 +4,6 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.MainThread;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnSignIn = findViewById(R.id.btnSignIn);
         Button btnApple = findViewById(R.id.btnApple);
         Button btnFacebook = findViewById(R.id.btnFacebook);
-        Button btnSignUpFrag = findViewById(R.id.btnSignUpFrag);
+        //Button btnSignInFrag = findViewById(R.id.btnSignInFrag);
         btnSignUp.setOnClickListener(this);
         btnSignIn.setOnClickListener(this);
         btnApple.setOnClickListener(this);
