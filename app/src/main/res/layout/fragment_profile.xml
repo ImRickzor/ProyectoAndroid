@@ -211,15 +211,15 @@
             android:id="@+id/textView14"
             android:layout_width="269dp"
             android:layout_height="61dp"
-            android:layout_marginEnd="50dp"
+            android:layout_marginEnd="24dp"
             android:text="@string/we_will_let_you_know_when_the_movies_you_ve_bookmarked_will_be_released"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textColor="#56555a"
-            android:textSize="14sp"
 
+            android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/button15"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.173"
+            app:layout_constraintHorizontal_bias="0.119"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13"
             tools:ignore="TextContrastCheck" />

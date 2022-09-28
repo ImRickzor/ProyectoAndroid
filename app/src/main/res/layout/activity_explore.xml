@@ -22,7 +22,7 @@
 
             <TextView
                 android:id="@+id/textView"
-                style="@style/titulo_movies"
+                style="@style/Title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
@@ -41,11 +41,13 @@
                 app:tabTextColor="@color/light_gray">
 
                 <com.google.android.material.tabs.TabItem
+                    style="@style/Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/movies" />
 
                 <com.google.android.material.tabs.TabItem
+                    style="@style/Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/selections" />
