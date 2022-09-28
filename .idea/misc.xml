@@ -3,6 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/drawable/fondo_boton_dash2.xml" value="0.1715" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/drawable/fondo_boton_dash4.xml" value="0.1715" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/drawable/fondo_efecto_boton.xml" value="0.1715" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/drawable/ic_modo_vista1.xml" value="0.1715" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/drawable/ic_modo_vista2.xml" value="0.1715" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/drawable/ic_modo_vista3.xml" value="0.1715" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/drawable/ic_profile.xml" value="0.1715" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_dashboard.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_explore.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_main.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_my_movies.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_search.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/activity_splash.xml" value="0.23425925925925925" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_movies.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_search.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_sign_in.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_sign_up.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_tabmovies.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_tabselections.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_vista_pelis2.xml" value="0.346875" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/layout/fragment_vista_pelis_profile.xml" value="0.33" />
+        <entry key="..\:/Users/guers/AndroidStudioProjects/ProyectoAndroid/app/src/main/res/menu/bottom_nav_menu.xml" value="0.346875" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MoviesApp/app/src/main/res/drawable/boton_facebook.xml" value="0.3755" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/activity_login.xml" value="0.37083333333333335" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/activity_main.xml" value="0.3536458333333333" />
