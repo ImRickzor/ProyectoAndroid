@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.UpperTabSelectionsFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Selections Films">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_placeholder" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/explore_selections_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/example_text_in_selections_tab" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_placeholder" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/explore_selections_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/example_text_in_selections_tab" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_placeholder" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/explore_selections_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/example_text_in_selections_tab" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_placeholder" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/explore_selections_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/example_text_in_selections_tab" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_placeholder" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/explore_selections_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/example_text_in_selections_tab" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

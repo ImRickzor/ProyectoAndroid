@@ -18,4 +18,12 @@
     <color name="celeste">#537ECC</color>
     <color name="blanco">#FFFFFF</color>
     <color name="default_background">#111111</color>
+
+    <color name="black_2">#111112</color>
+    <color name="black_transparent">#40000000</color>
+    <color name="dark_gray">#1C1C1E</color>
+    <color name="gray">#27272A</color>
+    <color name="light_gray">#5A5A5E</color>
+    <color name="pink">#FA7777</color>
+    <color name="light_blue">#537ECC</color>
 </resources>

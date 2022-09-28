@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnSignIn = findViewById(R.id.btnSignIn);
         Button btnApple = findViewById(R.id.btnApple);
         Button btnFacebook = findViewById(R.id.btnFacebook);
-
+        Button btnSignUpFrag = findViewById(R.id.btnSignUpFrag);
         btnSignUp.setOnClickListener(this);
         btnSignIn.setOnClickListener(this);
         btnApple.setOnClickListener(this);

@@ -27,5 +27,11 @@
     <string name="e_mail">E-Mail</string>
     <string name="search">Search</string>
     <string name="profile">Profile</string>
+    <string name="explore_titulo">Explore</string>
+
+    <string name="selections">Selections</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="example_text_in_selections_tab">A 24 Studio Films</string>
 
 </resources>
