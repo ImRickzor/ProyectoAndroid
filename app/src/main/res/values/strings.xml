@@ -32,5 +32,7 @@
     <!-- TODO: Remove or change this placeholder text -->
 
     <string name="example_text_in_selections_tab">A 24 Studio Films</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="name">Name</string>
 
 </resources>

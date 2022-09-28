@@ -1,5 +1,6 @@
 package com.angeljimenez.moviesapp.fragments;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -49,13 +50,28 @@ public class SignInFragment extends Fragment{
         }
 
     }
-
+    Context context; //Declare the variable context
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sign_in, container, false);
+        //return inflater.inflate(R.layout.fragment_sign_in, container, false);
 
+            //Pass your layout xml to the inflater and assign it to rootView.
+        View rootView = inflater.inflate(R.layout.fragment_sign_in, container, false);
+            context = rootView.getContext(); // Assign your rootView to context
+
+            Button btnSignUpFrag = (Button) rootView.findViewById(R.id.btnSignInFrag);
+        btnSignUpFrag.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    //Pass the context and the Activity class you need to open from the Fragment Class, to the Intent
+                    Intent intent = new Intent(context, ExploreActivity.class);
+                    startActivity(intent);
+                }
+            });
+            return rootView;
+        }
     }
 
-}
+
