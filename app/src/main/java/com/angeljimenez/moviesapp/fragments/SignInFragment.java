@@ -35,7 +35,6 @@ public class SignInFragment extends Fragment{
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
-
         fragment.setArguments(args);
         return fragment;
     }
@@ -54,10 +53,7 @@ public class SignInFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        //return inflater.inflate(R.layout.fragment_sign_in, container, false);
 
-            //Pass your layout xml to the inflater and assign it to rootView.
         View rootView = inflater.inflate(R.layout.fragment_sign_in, container, false);
             context = rootView.getContext(); // Assign your rootView to context
 
@@ -72,6 +68,6 @@ public class SignInFragment extends Fragment{
             });
             return rootView;
         }
-    }
+}
 
 

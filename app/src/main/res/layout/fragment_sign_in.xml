@@ -37,6 +37,7 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColor="@color/blanco"
+        android:textColorHint="@color/gris_claro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -62,6 +63,7 @@
         android:minHeight="48dp"
         android:textAlignment="viewStart"
         android:textColor="@color/blanco"
+        android:textColorHint="@color/gris_claro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />

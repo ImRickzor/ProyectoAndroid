@@ -33,7 +33,7 @@
         app:tabIndicatorColor="@color/salmon"
         app:tabIndicatorFullWidth="false"
         app:tabSelectedTextColor="@color/blanco"
-        app:tabTextAppearance="@style/BotonesWelcome"
+        app:tabTextAppearance="@style/BotonesNormales"
         app:tabTextColor="@color/light_gray">
 
         <com.google.android.material.tabs.TabItem
@@ -81,9 +81,9 @@
         android:id="@+id/contenedorPelis"
         android:layout_width="0dp"
         android:layout_height="500dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@color/blanco"
         android:orientation="vertical"
@@ -109,7 +109,7 @@
             style="@style/boton_vista1"
             android:layout_height="wrap_content"
             android:textColor="@color/blanco"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
         <RadioButton
             android:id="@+id/rbOrdenar2"

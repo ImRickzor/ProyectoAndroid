@@ -5,6 +5,7 @@
     android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black_2"
     tools:context=".fragments.VistaPelisProfileFragment">
 
     <ScrollView
@@ -39,15 +40,15 @@
                     <ImageView
                         android:id="@+id/imageView14"
                         style="@style/my_movies_profile"
-                        android:layout_width="192dp"
-                        android:layout_height="268dp"
+                        android:layout_width="180dp"
+                        android:layout_height="250dp"
                         android:src="@drawable/peli5" />
 
                     <ImageView
                         android:id="@+id/imageView13"
                         style="@style/my_movies_profile"
-                        android:layout_width="192dp"
-                        android:layout_height="268dp"
+                        android:layout_width="180dp"
+                        android:layout_height="250dp"
                         android:src="@drawable/peli4" />
                 </TableRow>
 
@@ -59,14 +60,14 @@
                         android:id="@+id/imageView12"
                         style="@style/my_movies_profile"
                         android:layout_width="192dp"
-                        android:layout_height="268dp"
+                        android:layout_height="250dp"
                         android:src="@drawable/peli3" />
 
                     <ImageView
                         android:id="@+id/imageView15"
                         style="@style/my_movies_profile"
                         android:layout_width="192dp"
-                        android:layout_height="268dp"
+                        android:layout_height="250dp"
                         android:src="@drawable/peli6" />
 
                 </TableRow>
@@ -79,14 +80,14 @@
                         android:id="@+id/imageView17"
                         style="@style/my_movies_profile"
                         android:layout_width="192dp"
-                        android:layout_height="268dp"
+                        android:layout_height="250dp"
                         android:src="@drawable/peli8" />
 
                     <ImageView
                         android:id="@+id/imageView11"
                         style="@style/my_movies_profile"
                         android:layout_width="192dp"
-                        android:layout_height="268dp"
+                        android:layout_height="250dp"
                         android:src="@drawable/peli2" />
 
                 </TableRow>
@@ -99,14 +100,14 @@
                         android:id="@+id/imageView10"
                         style="@style/my_movies_profile"
                         android:layout_width="192dp"
-                        android:layout_height="268dp"
+                        android:layout_height="250dp"
                         android:src="@drawable/peli1" />
 
                     <ImageView
                         android:id="@+id/imageView16"
                         style="@style/my_movies_profile"
                         android:layout_width="192dp"
-                        android:layout_height="268dp"
+                        android:layout_height="250dp"
                         android:src="@drawable/peli7" />
 
                 </TableRow>

@@ -37,7 +37,9 @@
                 android:layout_marginHorizontal="24dp"
                 android:background="@color/black_2"
                 android:baselineAligned="false"
+                app:tabIndicatorColor="@color/salmon"
                 app:tabSelectedTextColor="@color/white"
+                app:tabTextAppearance="@style/BotonesWelcome"
                 app:tabTextColor="@color/light_gray">
 
                 <com.google.android.material.tabs.TabItem
