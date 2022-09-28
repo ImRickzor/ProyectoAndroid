@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 
 import com.angeljimenez.moviesapp.R;
 
-public class MoviesFragment extends Fragment {
+public class MoviesTab extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

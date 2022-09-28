@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.angeljimenez.moviesapp.fragments.MoviesFragment;
+import com.angeljimenez.moviesapp.fragments.MoviesTab;
 import com.angeljimenez.moviesapp.fragments.UpperTabSelectionsFragment;
 
 public class ViewPagerAdapter extends FragmentStateAdapter {
@@ -18,11 +18,11 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         switch (position) {
             case 0:
-                return new MoviesFragment();
+                return new MoviesTab();
             case 1:
                 return new UpperTabSelectionsFragment();
             default:
-                return new MoviesFragment();
+                return new MoviesTab();
         }
     }
 

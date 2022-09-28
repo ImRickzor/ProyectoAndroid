@@ -4,7 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.angeljimenez.moviesapp.adapter.ViewPagerAdapter;
@@ -28,7 +31,12 @@ public class ExploreActivity extends AppCompatActivity {
     Movies Movies = new Movies();
     Search Search = new Search();
     Profile Profile = new Profile();
-
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.bottom_nav_menu, menu);
+        return true;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,20 +49,23 @@ public class ExploreActivity extends AppCompatActivity {
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.container,Movies).commit();
+        //getSupportFragmentManager().beginTransaction().replace(R.id.container,Movies).commit();
 
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.Movies:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, Movies).commit();
+                        //getSupportFragmentManager().beginTransaction().replace(R.id.container, Movies).commit();
+                        showMovies();
                         return true;
                     case R.id.Search:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, Search).commit();
+                        //getSupportFragmentManager().beginTransaction().replace(R.id.container, Search).commit();
+                        showSearch();
                         return true;
                     case R.id.Profile:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, Profile).commit();
+                        //getSupportFragmentManager().beginTransaction().replace(R.id.container, Profile).commit();
+                        showMyMovies();
                         return true;
                 }
                 return false;
@@ -86,5 +97,15 @@ public class ExploreActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void showMovies() {startActivity(new Intent(this, ExploreActivity.class));}
+    private void showSearch() {
+        startActivity(new Intent(this, SearchActivity.class));
+    }
+    private void showMyMovies() {
+        startActivity(new Intent(this, MyMovies.class));
+    }
+
+
 
 }

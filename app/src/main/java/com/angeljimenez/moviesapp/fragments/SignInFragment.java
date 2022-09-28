@@ -57,6 +57,9 @@ public class SignInFragment extends Fragment{
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_sign_in, container, false);
 
+
+        // IMPORTANT THIS CODE IS FOR CALLING AN ACTIVITY FROM A FRAGMENT
+
             //Pass your layout xml to the inflater and assign it to rootView.
         View rootView = inflater.inflate(R.layout.fragment_sign_in, container, false);
             context = rootView.getContext(); // Assign your rootView to context

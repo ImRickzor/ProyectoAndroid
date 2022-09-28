@@ -34,5 +34,20 @@
     <string name="example_text_in_selections_tab">A 24 Studio Films</string>
     <string name="example_gmail_com">example@gmail.com</string>
     <string name="name">Name</string>
+    <string name="people">People</string>
+    <string name="watched">Watched</string>
+    <string name="want">Want</string>
+    <string name="my_movies">My Movies</string>
+    <string name="username">Username</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="button">Button</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="we_will_let_you_know_when_the_movies_you_ve_bookmarked_will_be_released">We will let you know when the movies you\'ve bookmarked will be released</string>
+    <string name="movie_releases">Movie Releases</string>
+    <string name="about_and_help">About and Help</string>
+    <string name="language">Language</string>
+    <string name="change_password">Change Password</string>
+    <string name="connect_with_imdb">Connect with IMDb</string>
 
 </resources>
