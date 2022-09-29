@@ -16,7 +16,7 @@
         android:layout_marginStart="22dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="16dp"
-        android:text="Search"
+        android:text="@string/search"
         app:layout_constraintBottom_toTopOf="@+id/txtsearch"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -62,14 +62,14 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Shows"
+            android:text="@string/shows"
             tools:layout_editor_absoluteX="139dp"
             tools:layout_editor_absoluteY="133dp" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Actors" />
+            android:text="@string/actors" />
 
     </com.google.android.material.tabs.TabLayout>
 
@@ -80,7 +80,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/sfpro_medium"
-        android:text="46 Movies"
+        android:text="@string/_46_movies"
         android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:fontFamily="@font/sfpro_regular"
-        android:text="Sorted by My Rating"
+        android:text="@string/sorted_by_my_rating"
         android:textColor="@color/gris_claro"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
@@ -150,16 +150,19 @@
             tools:layout_editor_absoluteY="178dp" />
     </RadioGroup>
 
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageFilterView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="20dp"
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="58dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#070707"
+        android:scaleType="centerCrop"
         android:src="@drawable/perfil"
-        app:layout_constraintBottom_toTopOf="@+id/tabLayout"
+        app:layout_constraintBottom_toTopOf="@+id/txtsearch"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.166" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -56,16 +56,16 @@ public class ExploreActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.Movies:
-                        //getSupportFragmentManager().beginTransaction().replace(R.id.container, Movies).commit();
-                        showMovies();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, Movies).commit();
+                        //showMovies();
                         return true;
                     case R.id.Search:
-                        //getSupportFragmentManager().beginTransaction().replace(R.id.container, Search).commit();
-                        showSearch();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, Search).commit();
+                        //showSearch();
                         return true;
                     case R.id.Profile:
-                        //getSupportFragmentManager().beginTransaction().replace(R.id.container, Profile).commit();
-                        showMyMovies();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, Profile).commit();
+                        //showMyMovies();
                         return true;
                 }
                 return false;
@@ -98,14 +98,14 @@ public class ExploreActivity extends AppCompatActivity {
         });
     }
 
-    private void showMovies() {startActivity(new Intent(this, ExploreActivity.class));}
-    private void showSearch() {
-        startActivity(new Intent(this, SearchActivity.class));
+    //private void showMovies() {startActivity(new Intent(this, ExploreActivity.class));}
+    //private void showSearch() {
+        //startActivity(new Intent(this, SearchActivity.class));
     }
-    private void showMyMovies() {
-        startActivity(new Intent(this, MyMovies.class));
-    }
+   // private void showMyMovies() {
+      //  startActivity(new Intent(this, MyMovies.class));
+   // }
 
 
 
-}
+//}

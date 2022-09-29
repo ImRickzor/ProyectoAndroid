@@ -49,5 +49,9 @@
     <string name="language">Language</string>
     <string name="change_password">Change Password</string>
     <string name="connect_with_imdb">Connect with IMDb</string>
+    <string name="shows">Shows</string>
+    <string name="actors">Actors</string>
+    <string name="_46_movies">46 Movies</string>
+    <string name="sorted_by_my_rating">Sorted by My Rating</string>
 
 </resources>
