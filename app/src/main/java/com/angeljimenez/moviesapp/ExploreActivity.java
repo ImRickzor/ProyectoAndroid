@@ -49,7 +49,7 @@ public class ExploreActivity extends AppCompatActivity {
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        //getSupportFragmentManager().beginTransaction().replace(R.id.container,Movies).commit();
+
 
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
@@ -57,15 +57,15 @@ public class ExploreActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.Movies:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, Movies).commit();
-                        //showMovies();
+
                         return true;
                     case R.id.Search:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, Search).commit();
-                        //showSearch();
+
                         return true;
                     case R.id.Profile:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, Profile).commit();
-                        //showMyMovies();
+
                         return true;
                 }
                 return false;
@@ -97,15 +97,4 @@ public class ExploreActivity extends AppCompatActivity {
             }
         });
     }
-
-    //private void showMovies() {startActivity(new Intent(this, ExploreActivity.class));}
-    //private void showSearch() {
-        //startActivity(new Intent(this, SearchActivity.class));
-    }
-   // private void showMyMovies() {
-      //  startActivity(new Intent(this, MyMovies.class));
-   // }
-
-
-
-//}
+}
