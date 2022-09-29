@@ -21,21 +21,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@drawable/movies_poster_2" />
+                android:src="@drawable/honestthief" />
 
+            <TextView
+                android:id="@+id/textView1"
+                android:background="@color/black"
+                style="@style/explore_selections_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/example_text_in_selections_tab" />
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@drawable/movies_poster_1" />
+                android:src="@drawable/greenland" />
+            <TextView
+                android:id="@+id/textView2"
+                android:background="@color/black"
+                style="@style/explore_selections_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/example_text_in_selections_tab" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@drawable/movies_poster_3" />
+                android:src="@drawable/ladder" />
+            <TextView
+                android:id="@+id/textView3"
+                android:background="@color/black"
+                style="@style/explore_selections_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/example_text_in_selections_tab" />
         </LinearLayout>
     </ScrollView>
 

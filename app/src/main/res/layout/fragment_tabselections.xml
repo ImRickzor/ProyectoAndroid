@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.UpperTabSelectionsFragment">
+    tools:context=".fragments.UpperTabSelectionsFragment">
 
 
     <ScrollView
@@ -22,10 +22,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/img_placeholder" />
+                android:src="@drawable/major" />
 
             <TextView
                 android:id="@+id/textView2"
+                android:background="@color/black"
                 style="@style/explore_selections_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,24 +37,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/img_placeholder" />
+                android:src="@drawable/enforcer" />
 
             <TextView
                 android:id="@+id/textView3"
                 style="@style/explore_selections_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/example_text_in_selections_tab" />
+                android:background="@color/black"
+                android:text="@string/example_text_in_selections_tab"
+                tools:ignore="TextContrastCheck" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/img_placeholder" />
+                android:src="@drawable/brotherhood" />
 
             <TextView
                 android:id="@+id/textView4"
+                android:background="@color/black"
                 style="@style/explore_selections_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -64,10 +68,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/img_placeholder" />
+                android:src="@drawable/topgun" />
 
             <TextView
                 android:id="@+id/textView5"
+                android:background="@color/black"
                 style="@style/explore_selections_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -78,10 +83,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/img_placeholder" />
+                android:src="@drawable/blacklight" />
 
             <TextView
                 android:id="@+id/textView6"
+                android:background="@color/black"
                 style="@style/explore_selections_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
