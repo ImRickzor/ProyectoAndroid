@@ -21,10 +21,14 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
                 return new MoviesTab();
             case 1:
                 return new UpperTabSelectionsFragment();
+            case 2:
+
             default:
                 return new MoviesTab();
         }
     }
+
+
 
     @Override
     public int getItemCount() {

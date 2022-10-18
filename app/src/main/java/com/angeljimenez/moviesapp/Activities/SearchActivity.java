@@ -1,4 +1,4 @@
-package com.angeljimenez.moviesapp;
+package com.angeljimenez.moviesapp.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,6 +7,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.angeljimenez.moviesapp.R;
 import com.angeljimenez.moviesapp.adapter.ViewPagerAdapter;
 import com.angeljimenez.moviesapp.fragments.Movies;
 import com.angeljimenez.moviesapp.fragments.Profile;

@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.angeljimenez.moviesapp.ExploreActivity;
+import com.angeljimenez.moviesapp.Activities.ExploreActivity;
 import com.angeljimenez.moviesapp.R;
 
 

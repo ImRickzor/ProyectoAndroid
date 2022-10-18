@@ -1,4 +1,4 @@
-package com.angeljimenez.moviesapp;
+package com.angeljimenez.moviesapp.Activities;
 
 import androidx.annotation.CallSuper;
 import androidx.annotation.MainThread;
@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.angeljimenez.moviesapp.R;
 import com.angeljimenez.moviesapp.fragments.SignInFragment;
 import com.angeljimenez.moviesapp.fragments.SignUpFragment;
 
